@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftWalle_Example' do
+  pod 'SwiftWalle', :path => '../'
+
+  target 'SwiftWalle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
