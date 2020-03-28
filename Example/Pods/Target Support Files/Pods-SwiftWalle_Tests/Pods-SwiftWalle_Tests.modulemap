@@ -1,0 +1,6 @@
+framework module Pods_SwiftWalle_Tests {
+  umbrella header "Pods-SwiftWalle_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

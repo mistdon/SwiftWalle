@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0622A04CA149C6F2120FB398 /* Pods-SwiftWalle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWalle_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		135F011086A14188E5ECD141 /* Pods-SwiftWalle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWalle_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48DE159F0E906E430608DAAD /* SwiftWalle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftWalle.podspec; path = ../SwiftWalle.podspec; sourceTree = "<group>"; };
+		48DE159F0E906E430608DAAD /* SwiftWalle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftWalle.podspec; path = ../SwiftWalle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5262FA0E1090CE7BA5C38271 /* Pods-SwiftWalle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWalle_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftWalle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWalle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		82D81E9EEE42766BAA96184B /* Pods_SwiftWalle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWalle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8778ABF2E9B3F3FC4F1F80E2 /* Pods_SwiftWalle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWalle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C407A04C1C7D1BB8B1D0BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97C407A04C1C7D1BB8B1D0BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FFD1B1E252CDD7E64B00B6CD /* Pods-SwiftWalle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWalle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FFD1CCBA647CAFD2317F7DAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FFD1CCBA647CAFD2317F7DAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				FFD1B1E252CDD7E64B00B6CD /* Pods-SwiftWalle_Tests.debug.xcconfig */,
 				0622A04CA149C6F2120FB398 /* Pods-SwiftWalle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +270,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftWalle/SwiftWalle.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftWalle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -1,0 +1,29 @@
+PODS:
+  - SwifterSwift/Dispatch (5.1.0)
+  - SwifterSwift/Foundation (5.1.0)
+  - SwifterSwift/SwiftStdlib (5.1.0)
+  - SwifterSwift/UIKit (5.1.0)
+  - SwiftWalle (0.1.0):
+    - SwifterSwift/Dispatch
+    - SwifterSwift/Foundation
+    - SwifterSwift/SwiftStdlib
+    - SwifterSwift/UIKit
+
+DEPENDENCIES:
+  - SwiftWalle (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwifterSwift
+
+EXTERNAL SOURCES:
+  SwiftWalle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
+  SwiftWalle: a5de38297ed0c8b38332e06f9221275bb6d9c086
+
+PODFILE CHECKSUM: 0298760fe8e9f4076099751174e8354a78a693c3
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,39 @@
+{
+  "name": "SwiftWalle",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftWalle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mistdon/SwiftWalle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mistdon": "shendong13014@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mistdon/SwiftWalle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftWalle/Classes/**/*",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "dependencies": {
+    "SwifterSwift/SwiftStdlib": [
+
+    ],
+    "SwifterSwift/Foundation": [
+
+    ],
+    "SwifterSwift/UIKit": [
+
+    ],
+    "SwifterSwift/Dispatch": [
+
+    ]
+  }
+}
