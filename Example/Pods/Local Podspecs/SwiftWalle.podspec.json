@@ -1,8 +1,8 @@
 {
   "name": "SwiftWalle",
   "version": "0.1.0",
-  "summary": "A short description of SwiftWalle.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A collection of useful extenison of Swift",
+  "description": "A collection of useful extenison of Swift, incluing some extenison of SwifterSwift",
   "homepage": "https://github.com/mistdon/SwiftWalle",
   "license": {
     "type": "MIT",
@@ -18,7 +18,9 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SwiftWalle/Classes/**/*",
+  "swift_versions": "5.1",
+  "requires_arc": true,
+  "source_files": "SwiftWalle/Classes/**/*.swift",
   "ios": {
     "frameworks": "UIKit"
   },
@@ -35,5 +37,6 @@
     "SwifterSwift/Dispatch": [
 
     ]
-  }
+  },
+  "swift_version": "5.1"
 }
