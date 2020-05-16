@@ -18,6 +18,18 @@ class ViewController: UIViewController {
             print("YES")
         }
         view.backgroundColor = UIColor(hex6: 0xeb3d34)
+        
+        "aa".isBlank
+        
+//        let att = NSAttributedString(string: "Hello world!")
+//        att.high
+    
+        
+        var aa = ["a", "b"]
+        let indexp = IndexPath(row: 0, section: 0)
+        let res = aa(indexp)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

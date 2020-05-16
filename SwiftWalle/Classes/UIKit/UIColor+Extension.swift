@@ -35,7 +35,7 @@ extension UIColor {
     
     /// The shorthand four-digit hexadecimal representation of color with alpha.
     ///  #RGBA defines to the color #RRGGBBAA.
-    /// - Parameter hex4: <#hex4 description#>
+    /// - Parameter hex4: hex4 description
     public convenience init(hex4: UInt16) {
         let divisor = CGFloat(15)
         let red     = CGFloat((hex4 & 0xF000) >> 12) / divisor

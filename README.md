@@ -5,6 +5,31 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftWalle.svg?style=flat)](https://cocoapods.org/pods/SwiftWalle)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftWalle.svg?style=flat)](https://cocoapods.org/pods/SwiftWalle)
 
+## Intrudocution
+
+SwiftWalle是基于`SwifterSwift`的部分，再加上其他的有用的扩展。
+
+选择的`SwifterSwift`的iOS部分，舍弃SwifterSwifter的MaxOS、WatchOS、TVOS部分
+
+SwifterSwift:
+
+- Dispatch
+- SwiftStdlib
+- UIKit
+
+新增:
+
+- Foundation
+  - AppAbout
+  - MemoryAddress
+  - Array
+  - Walle
+
+- UIKit
+  - CellExtension
+  - UIColor+Extension
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

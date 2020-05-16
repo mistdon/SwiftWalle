@@ -7,7 +7,5 @@ target 'SwiftWalle_Example' do
 
   target 'SwiftWalle_Tests' do
     inherit! :search_paths
-
-    
   end
 end
