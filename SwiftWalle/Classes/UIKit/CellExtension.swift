@@ -21,3 +21,5 @@ extension ReuseIdentifiable  {
 extension UITableViewCell: ReuseIdentifiable {}
 
 extension UICollectionViewCell: ReuseIdentifiable {}
+
+extension UICollectionReusableView : ReuseIdentifiable {}

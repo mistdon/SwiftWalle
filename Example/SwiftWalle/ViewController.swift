@@ -18,27 +18,22 @@ class ViewController: UIViewController {
             print("YES")
         }
         view.backgroundColor = UIColor(hex6: 0xeb3d34)
+        view.backgroundColor = UIColor.random()
+        let bb = UILabel()
+        view.addSubview(bb)
         
-        "aa".isBlank
+        let cc = UILabel()
+        bb.addSubview(cc)
         
-//        let att = NSAttributedString(string: "Hello world!")
-//        att.high
-    
-        
-        var aa = ["a", "b"]
-        let indexp = IndexPath(row: 0, section: 0)
-        let res = aa(indexp)
-        
-        
+        let temp = cc.firstResponderController()
+        print(temp)
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        let att = NSAttributedString(string: "ss", attributes: [NSAttributedString.Key.foregroundColor: UIColor(hex6: "11111111111")])
-        view.backgroundColor = UIColor(hex6: "1")
+        view.backgroundColor = UIColor.random()
     }
 }
 

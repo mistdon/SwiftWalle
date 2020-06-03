@@ -18,13 +18,13 @@ public enum UIColorInputError : Error {
          mismatchedHexStringLength
 }
 
-extension UIColor {
+public extension UIColor {
     /// The shorthand three-digit hexadecimal representation of color.
     /// #RGB defines to the color #RRGGBB.
     /// - Parameters:
     ///   - hex3: Three-digit hexadecimal value.
     ///   - alpha: 0.0 - 1.0. The default is 1.0.
-    public convenience init(hex3: UInt16, alpha: CGFloat = 1) {
+    convenience init(hex3: UInt16, alpha: CGFloat = 1) {
         let divisor = CGFloat(15)
         let red     = CGFloat((hex3 & 0xF00) >> 8) / divisor
         let green   = CGFloat((hex3 & 0x0F0) >> 4) / divisor
@@ -36,7 +36,7 @@ extension UIColor {
     /// The shorthand four-digit hexadecimal representation of color with alpha.
     ///  #RGBA defines to the color #RRGGBBAA.
     /// - Parameter hex4: hex4 description
-    public convenience init(hex4: UInt16) {
+    convenience init(hex4: UInt16) {
         let divisor = CGFloat(15)
         let red     = CGFloat((hex4 & 0xF000) >> 12) / divisor
         let green   = CGFloat((hex4 & 0x0F00) >>  8) / divisor
@@ -49,7 +49,7 @@ extension UIColor {
     /// The six-digit hexadecimal representation of color of the form #RRGGBB.
     /// - Parameters:
     ///   - hex6: Six-digit hexadecimal value.
-    public convenience init(hex6: UInt32, alpha: CGFloat = 1) {
+    convenience init(hex6: UInt32, alpha: CGFloat = 1) {
         let divisor = CGFloat(255)
         let red     = CGFloat((hex6 & 0xFF0000) >> 16) / divisor
         let green   = CGFloat((hex6 & 0x00FF00) >>  8) / divisor
@@ -60,7 +60,7 @@ extension UIColor {
     
     /// The six-digit hexadecimal representation of color with alpha of the form #RRGGBBAA.
     /// - Parameter hex8: Eight-digit hexadecimal value.
-    public convenience init(hex8: UInt32) {
+    convenience init(hex8: UInt32) {
         let divisor = CGFloat(255)
         let red     = CGFloat((hex8 & 0xFF000000) >> 24) / divisor
         let green   = CGFloat((hex8 & 0x00FF0000) >> 16) / divisor
@@ -74,7 +74,7 @@ extension UIColor {
     /// - Demo:
     ///   let color = UIColor(hex6: "#62CCB0 0.5")
     ///   let color = UIColor(hex6: "#62CCB0")
-    public convenience init(hex6_throws hex6: String) throws {
+    convenience init(hex6_throws hex6: String) throws {
         guard hex6.hasPrefix("#") else {
             throw UIColorInputError.missingHashMarkAsPrefix
         }
@@ -104,7 +104,7 @@ extension UIColor {
         throw UIColorInputError.mismatchedHexStringLength
     }
     
-    public convenience init(hex6: String, defaultColor: UIColor = UIColor.clear) {
+    convenience init(hex6: String, defaultColor: UIColor = UIColor.clear) {
         guard let color = try? UIColor(hex6_throws: hex6) else {
             self.init(cgColor: defaultColor.cgColor)
             return
@@ -114,7 +114,7 @@ extension UIColor {
     
     /// The rgba string representation of color with alpha of the form #RRGGBBAA/#RRGGBB, throws error.
     /// - Parameter rgba: rggb String value.
-    public convenience init(rgba_throws rgba: String) throws {
+    convenience init(rgba_throws rgba: String) throws {
         guard rgba.hasPrefix("#") else {
             throw UIColorInputError.missingHashMarkAsPrefix
         }
@@ -140,7 +140,7 @@ extension UIColor {
     /// The rgba string representation of color with alpha of the form #RRGGBBAA/#RRGGBB, fails to default color.
     /// - Parameters:
     ///   - rgba: String value.
-    public convenience init(rgba: String, defaultColor: UIColor = UIColor.clear) {
+    convenience init(rgba: String, defaultColor: UIColor = UIColor.clear) {
         guard let color = try? UIColor(rgba_throws: rgba) else {
             self.init(cgColor: defaultColor.cgColor)
             return
@@ -150,7 +150,7 @@ extension UIColor {
     
     /// Hex string of a UIColor instance.
     /// - Parameter includeAlpha: Whether the alpha should be included.
-    public func hexString(_ includeAlpha: Bool) -> String {
+    func hexString(_ includeAlpha: Bool) -> String {
         var r: CGFloat = 0
         var g: CGFloat = 0
         var b: CGFloat = 0
@@ -166,7 +166,7 @@ extension UIColor {
     
     /// Get r RGBA value
     /// - Returns: each value of RGBA
-    public func getRGBA() -> (CGFloat, CGFloat, CGFloat, CGFloat){
+    func getRGBA() -> (CGFloat, CGFloat, CGFloat, CGFloat){
         var r: CGFloat = 0
         var g: CGFloat = 0
         var b: CGFloat = 0
@@ -174,11 +174,17 @@ extension UIColor {
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
         return (r * 255.0, g * 255.0, b * 255.0, a)
     }
-    open override var description: String {
+    override var description: String {
         return self.hexString(true)
     }
     
-    open override var debugDescription: String {
+    override var debugDescription: String {
         return self.hexString(true)
+    }
+    static func random(hue: CGFloat = CGFloat.random(in: 0...1),
+                       saturation: CGFloat = CGFloat.random(in: 0.5...1), // from 0.5 to 1.0 to stay away from white
+                       brightness: CGFloat = CGFloat.random(in: 0.5...1), // from 0.5 to 1.0 to stay away from black
+                       alpha: CGFloat = 1) -> UIColor {
+        return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: alpha)
     }
 }

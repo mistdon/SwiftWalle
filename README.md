@@ -9,7 +9,7 @@
 
 SwiftWalle是基于`SwifterSwift`的部分，再加上其他的有用的扩展。
 
-选择的`SwifterSwift`的iOS部分，舍弃SwifterSwifter的MaxOS、WatchOS、TVOS部分
+选择的`SwifterSwift`的iOS部分，舍弃`SwifterSwifter`的MaxOS、WatchOS、TVOS部分
 
 SwifterSwift:
 
