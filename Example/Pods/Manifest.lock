@@ -3,6 +3,7 @@ PODS:
   - SwifterSwift/Foundation (5.1.0)
   - SwifterSwift/SwiftStdlib (5.1.0)
   - SwifterSwift/UIKit (5.1.0)
+  - SwiftLint (0.45.0)
   - SwiftWalle (0.1.0):
     - SwifterSwift/Dispatch
     - SwifterSwift/Foundation
@@ -10,11 +11,13 @@ PODS:
     - SwifterSwift/UIKit
 
 DEPENDENCIES:
+  - SwiftLint
   - SwiftWalle (from `../`)
 
 SPEC REPOS:
   trunk:
     - SwifterSwift
+    - SwiftLint
 
 EXTERNAL SOURCES:
   SwiftWalle:
@@ -22,8 +25,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
-  SwiftWalle: 603a8215f38db229704ecc8290ab8911d05c63a7
+  SwiftLint: e5c7f1fba68eccfc51509d5b2ce1699f5502e0c7
+  SwiftWalle: a15415a08a46d0aa66773cada39ab3f5c536fae3
 
-PODFILE CHECKSUM: 617c1758d5754beedfc73888229346c27acf9fbe
+PODFILE CHECKSUM: 6d64dea5df13f8d563fc881a6f53e94aa41d9418
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
