@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites><testsuite>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='When using trailing closures, empty parentheses should be avoided after the method call.'>warning:
+Line:23 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='Lines should not have trailing whitespace.'>warning:
+Line:5 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='Lines should not have trailing whitespace.'>warning:
+Line:10 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='Lines should not have trailing whitespace.'>warning:
+Line:15 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='Lines should not have trailing whitespace.'>warning:
+Line:20 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='Lines should not have trailing whitespace.'>warning:
+Line:27 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Tests/Tests.swift'>
+<failure message='Limit vertical whitespace to a single empty line. Currently 2.'>warning:
+Line:3 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/ViewController.swift'>
+<failure message='Files should have a single trailing newline.'>warning:
+Line:32 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/ViewController.swift'>
+<failure message='Lines should not have trailing whitespace.'>warning:
+Line:21 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 120 characters or less: currently 145 characters'>warning:
+Line:17 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 200 characters or less: currently 285 characters'>error:
+Line:26 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 120 characters or less: currently 155 characters'>warning:
+Line:27 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 200 characters or less: currently 218 characters'>error:
+Line:31 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 120 characters or less: currently 141 characters'>warning:
+Line:32 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 120 characters or less: currently 157 characters'>warning:
+Line:36 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 120 characters or less: currently 194 characters'>warning:
+Line:40 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Line should be 120 characters or less: currently 128 characters'>warning:
+Line:44 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Files should have a single trailing newline.'>warning:
+Line:49 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Limit vertical whitespace to a single empty line. Currently 2.'>warning:
+Line:16 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/SwiftWalle/AppDelegate.swift'>
+<failure message='Limit vertical whitespace to a single empty line. Currently 2.'>warning:
+Line:47 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIEdgeInsetsExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 124 characters'>warning:
+Line:16 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIEdgeInsetsExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 124 characters'>warning:
+Line:23 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIEdgeInsetsExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 152 characters'>warning:
+Line:84 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIEdgeInsetsExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 136 characters'>warning:
+Line:93 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UITableViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 137 characters'>warning:
+Line:98 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UITableViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 137 characters'>warning:
+Line:111 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UITableViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 123 characters'>warning:
+Line:121 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UITableViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 149 characters'>warning:
+Line:122 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UICollectionViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 147 characters'>warning:
+Line:79 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UICollectionViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 148 characters'>warning:
+Line:91 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UICollectionViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 147 characters'>warning:
+Line:92 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UICollectionViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 151 characters'>warning:
+Line:93 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UICollectionViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 126 characters'>warning:
+Line:129 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 129 characters'>warning:
+Line:47 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 134 characters'>warning:
+Line:52 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 167 characters'>warning:
+Line:53 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 160 characters'>warning:
+Line:54 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 178 characters'>warning:
+Line:57 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift'>
+<failure message='Line should be 200 characters or less: currently 218 characters'>error:
+Line:111 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIFontExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 164 characters'>warning:
+Line:30 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIDatePickerExtensions.swift'>
+<failure message='Computed properties should declare first the getter and then the setter.'>warning:
+Line:17 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIAlertControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 158 characters'>warning:
+Line:43 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIAlertControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 135 characters'>warning:
+Line:57 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIAlertControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 129 characters'>warning:
+Line:79 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIAlertControllerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 179 characters'>warning:
+Line:95 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIImageExtensions.swift'>
+<failure message='Line should be 200 characters or less: currently 266 characters'>error:
+Line:42 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIImageExtensions.swift'>
+<failure message='Line should be 200 characters or less: currently 266 characters'>error:
+Line:51 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/SignedIntegerExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 127 characters'>warning:
+Line:87 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/URLExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 147 characters'>warning:
+Line:22 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/URLExtensions.swift'>
+<failure message='Line should be 200 characters or less: currently 237 characters'>error:
+Line:126 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/NSAttributedStringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 130 characters'>warning:
+Line:124 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/NSAttributedStringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 122 characters'>warning:
+Line:147 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/NSAttributedStringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 122 characters'>warning:
+Line:168 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/SignedNumericExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 132 characters'>warning:
+Line:43 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/SequenceExtensions.swift'>
+<failure message='Prefer at least one space after slashes for comments.'>warning:
+Line:180 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/SequenceExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 147 characters'>warning:
+Line:144 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 126 characters'>warning:
+Line:57 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 126 characters'>warning:
+Line:88 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 124 characters'>warning:
+Line:94 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 182 characters'>warning:
+Line:95 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 147 characters'>warning:
+Line:101 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/DictionaryExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 128 characters'>warning:
+Line:102 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='File should contain 400 lines or less: currently contains 585'>warning:
+Line:585 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 169 characters'>warning:
+Line:273 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 154 characters'>warning:
+Line:368 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 154 characters'>warning:
+Line:384 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 125 characters'>warning:
+Line:399 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 163 characters'>warning:
+Line:417 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 167 characters'>warning:
+Line:456 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/UIKit/UIViewExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 135 characters'>warning:
+Line:473 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/CollectionExtensions.swift'>
+<failure message='Prefer at least one space after slashes for comments.'>warning:
+Line:89 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/CollectionExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 161 characters'>warning:
+Line:81 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/IntExtensions.swift'>
+<failure message='Prefer at least one space after slashes for comments.'>warning:
+Line:125 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/RangeReplaceableCollectionExtensions.swift'>
+<failure message='Prefer at least one space after slashes for comments.'>warning:
+Line:24 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/RangeReplaceableCollectionExtensions.swift'>
+<failure message='Prefer at least one space after slashes for comments.'>warning:
+Line:47 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/RangeReplaceableCollectionExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 169 characters'>warning:
+Line:44 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/RangeReplaceableCollectionExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 181 characters'>warning:
+Line:58 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/RangeReplaceableCollectionExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 168 characters'>warning:
+Line:83 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/RangeReplaceableCollectionExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 166 characters'>warning:
+Line:84 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='File should contain 400 lines or less: currently contains 1017'>error:
+Line:1017 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 152 characters'>warning:
+Line:64 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:383 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:401 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:419 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:437 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 135 characters'>warning:
+Line:896 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 135 characters'>warning:
+Line:905 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 125 characters'>warning:
+Line:908 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 134 characters'>warning:
+Line:916 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 125 characters'>warning:
+Line:920 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:926 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Foundation/DateExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 134 characters'>warning:
+Line:928 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='File should contain 400 lines or less: currently contains 1246'>error:
+Line:1246 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 185 characters'>warning:
+Line:176 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 200 characters or less: currently 529 characters'>error:
+Line:182 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 200 characters or less: currently 447 characters'>error:
+Line:361 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 162 characters'>warning:
+Line:433 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 125 characters'>warning:
+Line:607 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 136 characters'>warning:
+Line:608 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 125 characters'>warning:
+Line:619 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 136 characters'>warning:
+Line:620 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 146 characters'>warning:
+Line:781 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 125 characters'>warning:
+Line:1111 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 140 characters'>warning:
+Line:1125 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 131 characters'>warning:
+Line:1132 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 145 characters'>warning:
+Line:1229 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:1239 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='File should contain 400 lines or less: currently contains 1820'>error:
+Line:1820 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:156 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 123 characters'>warning:
+Line:188 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:236 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:253 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='Line should be 120 characters or less: currently 121 characters'>warning:
+Line:343 </failure>	</testcase>
+	<testcase classname='Formatting Test' name='/Users/shen/Documents/github/private/SwiftWalle/Example/Pods/SwifterSwift/Sources/SwifterSwift/Shared/ColorExtensions.swift'>
+<failure message='Unused parameter &quot;color&quot; in a closure should be replaced with _.'>warning:
+Line:153 </failure>	</testcase>
+</testsuite></testsuites>

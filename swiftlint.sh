@@ -1,3 +1,3 @@
 cd Example
 
-swiftlint lint --reporter junit >swiftlint_result_junit.xml
+swiftlint lint --reporter checkstyle >swiftlint_result_pmd.xml
