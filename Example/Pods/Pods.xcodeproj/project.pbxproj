@@ -49,6 +49,8 @@
 		5C8CD234831EA4DB34C78F725D6C2653 /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2726E4BA485ACC779A077116D947F4 /* OptionalExtensions.swift */; };
 		5CC001A510101992FDEEFDBBEAFBC850 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBBC9BD36B031182EBDCFADB0B50B5 /* UIAlertControllerExtensions.swift */; };
 		5EC5A2A6BA7F7B6686DFAD593C9565DE /* BidirectionalCollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABEB6444C0D04EE3D76F8D45DF3FB20 /* BidirectionalCollectionExtensions.swift */; };
+		6401F06527F2AA840017F1B0 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6401F06427F2AA840017F1B0 /* UIKitExtension.swift */; };
+		64AD2EE427F1AF5C006730D3 /* FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD2EE327F1AF5C006730D3 /* FoundationExtension.swift */; };
 		6568F0927F95907412FB441DFB6A1A58 /* AppAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F8F24767EFE28C25E7E8FB9990013 /* AppAbout.swift */; };
 		6B25DC74400F1854D833B476AF69F7D7 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26361F17B6D0E31E3FC5FD1269F43CF3 /* SequenceExtensions.swift */; };
 		6C0BEB83F375D15F420B4FC7B4F0466A /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB97BBE1B16345575B98FE0587B7D73 /* UIStoryboardExtensions.swift */; };
@@ -94,7 +96,6 @@
 		D5AD848426379E3222AF2A0DAD800A7C /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FD3ECBEC5D997B3171B4B2780B718 /* DataExtensions.swift */; };
 		D6F961F1CAE5613EB6485CAFD2979AE0 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD1D6FDD112A2AC3E79613E094EE365 /* IntExtensions.swift */; };
 		D735C6ECEC409ED2A4924423931D7E5F /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58E637AC98D50FDC49CA90292BF6B3F /* UITableViewExtensions.swift */; };
-		DE000D7E4D7BF0FA33527404DCAF8C58 /* CellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24F6228C0A6C678C0F17BBD4C010D6 /* CellExtension.swift */; };
 		E4F1CC17C1B290D9CEB071315F01556B /* UIEdgeInsetsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EDCF3CDE7BFC9B2E49472F2E82B2C /* UIEdgeInsetsExtensions.swift */; };
 		E6DB02AB4C5C771A7713F8116CE8F63A /* SwifterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B959E4D505DCB7E03AA9C5308CA8B8 /* SwifterSwift.framework */; };
 		EAD0B1A0F1DDBBB42391FDC4760C836A /* SwiftWalle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E421303C635984927B9795F85CA6E8D4 /* SwiftWalle-dummy.m */; };
@@ -158,7 +159,6 @@
 		104E777FE0FC2C0AEE0D9CB1FC10044C /* Pods-SwiftWalle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWalle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		10FF5B401BE3989249671ABF0748257B /* Pods-SwiftWalle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftWalle_Tests.modulemap"; sourceTree = "<group>"; };
 		164F6056C4FFB8F738AAF310463D4D8D /* Walle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walle.swift; sourceTree = "<group>"; };
-		1B24F6228C0A6C678C0F17BBD4C010D6 /* CellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellExtension.swift; sourceTree = "<group>"; };
 		1CF0DD8678D805A97271F741328FC904 /* ColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtensions.swift; path = Sources/SwifterSwift/Shared/ColorExtensions.swift; sourceTree = "<group>"; };
 		2392F22FA844C7164F76F2D65B230F60 /* SignedNumericExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignedNumericExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/SignedNumericExtensions.swift; sourceTree = "<group>"; };
 		2401D7FBDA0F1EF156BCF5F682E6443F /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldExtensions.swift; path = Sources/SwifterSwift/UIKit/UITextFieldExtensions.swift; sourceTree = "<group>"; };
@@ -197,6 +197,8 @@
 		5B66B0BDB2324EDA167F4C22F94C7905 /* Pods-SwiftWalle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWalle_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5E2726E4BA485ACC779A077116D947F4 /* OptionalExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionalExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/OptionalExtensions.swift; sourceTree = "<group>"; };
 		632FD3ECBEC5D997B3171B4B2780B718 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = Sources/SwifterSwift/Foundation/DataExtensions.swift; sourceTree = "<group>"; };
+		6401F06427F2AA840017F1B0 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		64AD2EE327F1AF5C006730D3 /* FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtension.swift; sourceTree = "<group>"; };
 		65B4322D5A05C59CCC74224458521212 /* Pods-SwiftWalle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftWalle_Example.modulemap"; sourceTree = "<group>"; };
 		67A9E7D0A981B76219A0F2F1EB67F95F /* NSPredicateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSPredicateExtensions.swift; path = Sources/SwifterSwift/Foundation/NSPredicateExtensions.swift; sourceTree = "<group>"; };
 		697D52BA58B9FA17115B363B43ED7024 /* DispatchQueueExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueExtensions.swift; path = Sources/SwifterSwift/Dispatch/DispatchQueueExtensions.swift; sourceTree = "<group>"; };
@@ -393,6 +395,8 @@
 				32740616C20F069024E8C9656BD1DBA5 /* NSAttributedString+Extension.swift */,
 				E4EE0364424A087FC22F3C0DAEB779E2 /* StringExtension.swift */,
 				164F6056C4FFB8F738AAF310463D4D8D /* Walle.swift */,
+				64AD2EE327F1AF5C006730D3 /* FoundationExtension.swift */,
+				6401F06427F2AA840017F1B0 /* UIKitExtension.swift */,
 			);
 			name = Foundation;
 			path = SwiftWalle/Classes/Foundation;
@@ -507,7 +511,6 @@
 		C414F48DDACF41629F4718C23112B892 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				1B24F6228C0A6C678C0F17BBD4C010D6 /* CellExtension.swift */,
 				0A680452061084873FE2BE11696DC1B5 /* UIColor+Extension.swift */,
 			);
 			name = UIKit;
@@ -729,7 +732,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -791,12 +794,13 @@
 			files = (
 				6568F0927F95907412FB441DFB6A1A58 /* AppAbout.swift in Sources */,
 				B80199DD4CE874A658A7C0BFCFFC4EF9 /* Array.swift in Sources */,
-				DE000D7E4D7BF0FA33527404DCAF8C58 /* CellExtension.swift in Sources */,
 				C46247D45A4F96BC478E9EE958B04B41 /* MemoryAddress.swift in Sources */,
 				439F5049978AD5ABED18477B223CD8C5 /* NSAttributedString+Extension.swift in Sources */,
 				9D878E7C4D4CD063A761E68DB528E26C /* StringExtension.swift in Sources */,
 				EAD0B1A0F1DDBBB42391FDC4760C836A /* SwiftWalle-dummy.m in Sources */,
 				EDCF2A07B85DEBE39DFF6A89060DCF5F /* UIColor+Extension.swift in Sources */,
+				64AD2EE427F1AF5C006730D3 /* FoundationExtension.swift in Sources */,
+				6401F06527F2AA840017F1B0 /* UIKitExtension.swift in Sources */,
 				FE28BEBD6C1040F172D121DB87F56461 /* Walle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -927,41 +931,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		49B873450F8FD23E657EF64B25239D1F /* Debug */ = {
+		10E5AC9B92FD82CE6D520B5B7A81182B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BDA27708A6A771407FFE5564EE28C7D /* SwifterSwift.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwift/SwifterSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwifterSwift/SwifterSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwifterSwift/SwifterSwift.modulemap";
-				PRODUCT_MODULE_NAME = SwifterSwift;
-				PRODUCT_NAME = SwifterSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50F97FD348C656597472456966545DCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7527370596F193600424A1C066FD0569 /* Pods-SwiftWalle_Tests.release.xcconfig */;
+			baseConfigurationReference = CF4FC0C4CA328D644746BD9DDEB28D0D /* Pods-SwiftWalle_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -971,12 +946,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -985,16 +960,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		6B12868A4684AD5FA825EAE88844CBF5 /* Release */ = {
+		1EF0C0BA22FF6B82A087B13DE2E7AE2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73D9ECDE06FD0F8255360A09570C2836 /* SwiftWalle.release.xcconfig */;
+			baseConfigurationReference = 4BE28085E59AF09F2993D8387C119A15 /* SwiftWalle.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1007,11 +982,57 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftWalle/SwiftWalle-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftWalle/SwiftWalle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftWalle/SwiftWalle.modulemap";
 				PRODUCT_MODULE_NAME = SwiftWalle;
 				PRODUCT_NAME = SwiftWalle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39D0F8C0DF8A3DF1976A02725A047CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DEC93BD8BF11EAB793380D448EF24F /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5B4C81DD2E37D4CB75354C74D446DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED93FFD39047A3C115533B5C675D5586 /* SwifterSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwift/SwifterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwifterSwift/SwifterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwifterSwift/SwifterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SwifterSwift;
+				PRODUCT_NAME = SwifterSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1023,7 +1044,55 @@
 			};
 			name = Release;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		74A4367AFBA2BC72E9F0249101354BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA2D7580AD81C4704E45D97DAF5CE21 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8289AB34ED24B7F7612ED9419C065C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270D9AC5EDBA3164CCE424D552F2C28D /* Pods-SwiftWalle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1073,7 +1142,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1084,119 +1153,7 @@
 			};
 			name = Release;
 		};
-		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5DEC93BD8BF11EAB793380D448EF24F /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B72047648E3F4C7971C56997D18FAC88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED93FFD39047A3C115533B5C675D5586 /* SwifterSwift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwift/SwifterSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwifterSwift/SwifterSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwifterSwift/SwifterSwift.modulemap";
-				PRODUCT_MODULE_NAME = SwifterSwift;
-				PRODUCT_NAME = SwifterSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C7974E5BC9F58D72F65549C80A1A77EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D316682A940AE8F84544097678A3BB /* Pods-SwiftWalle_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF7E33A2EE0E4E9AE6248675A921DE62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 270D9AC5EDBA3164CCE424D552F2C28D /* Pods-SwiftWalle_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1249,7 +1206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1262,24 +1219,43 @@
 			};
 			name = Debug;
 		};
-		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+		C5B04085F2326D500246726E26FF2549 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA2D7580AD81C4704E45D97DAF5CE21 /* SwiftLint.debug.xcconfig */;
+			baseConfigurationReference = 2BDA27708A6A771407FFE5564EE28C7D /* SwifterSwift.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwift/SwifterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwifterSwift/SwifterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwifterSwift/SwifterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SwifterSwift;
+				PRODUCT_NAME = SwifterSwift;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F8E4E62A6452CDAF625BF755A825AF9D /* Debug */ = {
+		CE2A3DF3453B13EA0104EBD647DBBF5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF4FC0C4CA328D644746BD9DDEB28D0D /* Pods-SwiftWalle_Example.debug.xcconfig */;
+			baseConfigurationReference = C5D316682A940AE8F84544097678A3BB /* Pods-SwiftWalle_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1291,7 +1267,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Example/Pods-SwiftWalle_Example.modulemap";
@@ -1303,15 +1279,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FFC0A37E298E1A334FF51CCB7B2EC449 /* Debug */ = {
+		ED5055BE69C91082ACC930F39EFCB92E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BE28085E59AF09F2993D8387C119A15 /* SwiftWalle.debug.xcconfig */;
+			baseConfigurationReference = 73D9ECDE06FD0F8255360A09570C2836 /* SwiftWalle.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1324,7 +1302,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftWalle/SwiftWalle-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftWalle/SwiftWalle-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftWalle/SwiftWalle.modulemap";
 				PRODUCT_MODULE_NAME = SwiftWalle;
@@ -1332,12 +1310,48 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		F7AB7FE56F629C6982C677918887026A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7527370596F193600424A1C066FD0569 /* Pods-SwiftWalle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWalle_Tests/Pods-SwiftWalle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1345,8 +1359,8 @@
 		0A38152409407390CF997660B6DBF8F3 /* Build configuration list for PBXNativeTarget "Pods-SwiftWalle_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7E33A2EE0E4E9AE6248675A921DE62 /* Debug */,
-				50F97FD348C656597472456966545DCF /* Release */,
+				8289AB34ED24B7F7612ED9419C065C04 /* Debug */,
+				F7AB7FE56F629C6982C677918887026A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1354,8 +1368,8 @@
 		1B0E4949C31F92D83F84C0EC072E1111 /* Build configuration list for PBXNativeTarget "SwifterSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49B873450F8FD23E657EF64B25239D1F /* Debug */,
-				B72047648E3F4C7971C56997D18FAC88 /* Release */,
+				C5B04085F2326D500246726E26FF2549 /* Debug */,
+				5E5B4C81DD2E37D4CB75354C74D446DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1363,8 +1377,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1372,8 +1386,8 @@
 		9E21EF643E01692A80783A571452E94B /* Build configuration list for PBXNativeTarget "SwiftWalle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFC0A37E298E1A334FF51CCB7B2EC449 /* Debug */,
-				6B12868A4684AD5FA825EAE88844CBF5 /* Release */,
+				1EF0C0BA22FF6B82A087B13DE2E7AE2E /* Debug */,
+				ED5055BE69C91082ACC930F39EFCB92E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1381,8 +1395,8 @@
 		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
-				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+				74A4367AFBA2BC72E9F0249101354BDA /* Debug */,
+				39D0F8C0DF8A3DF1976A02725A047CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1390,8 +1404,8 @@
 		FC46FC5F2F3ED3F9BED18AA8BEC98AD6 /* Build configuration list for PBXNativeTarget "Pods-SwiftWalle_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8E4E62A6452CDAF625BF755A825AF9D /* Debug */,
-				C7974E5BC9F58D72F65549C80A1A77EA /* Release */,
+				10E5AC9B92FD82CE6D520B5B7A81182B /* Debug */,
+				CE2A3DF3453B13EA0104EBD647DBBF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

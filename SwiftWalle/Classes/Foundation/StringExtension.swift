@@ -39,6 +39,7 @@ extension String {
     public func stringByRemovingEmoji() -> String {
         return String(self.filter { !$0.isEmoji})
     }
+    
     public var charactersArray: [Character] {
         return Array(self)
     }

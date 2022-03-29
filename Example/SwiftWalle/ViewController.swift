@@ -18,7 +18,6 @@ class ViewController: UIViewController {
             print("YES")
         }
         view.backgroundColor = UIColor(hex6: 0xeb3d34)
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,4 +28,3 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor(hex6: "1")
     }
 }
-
